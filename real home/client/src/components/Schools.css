@@ -1,0 +1,127 @@
+.schools-section {
+    margin: 48px 0;
+}
+
+.schools-section h3 {
+    font-size: 1.75rem;
+    margin-bottom: 16px;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.schools-disclaimer {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+    padding: 12px;
+    background: #FFF9E6;
+    border-left: 4px solid #F59E0B;
+    border-radius: 4px;
+}
+
+.schools-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.school-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+
+.school-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.school-rating {
+    min-width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.school-info {
+    flex: 1;
+}
+
+.school-info h4 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.school-details {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.detail-badge {
+    padding: 4px 12px;
+    background: var(--secondary-color);
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.detail-text {
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.school-distance {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-top: 4px;
+}
+
+.school-link {
+    background: none;
+    border: none;
+    color: #006AFF;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.school-link:hover {
+    background: #F0F7FF;
+}
+
+.school-ratings-info {
+    padding: 20px;
+    background: var(--secondary-color);
+    border-radius: 8px;
+}
+
+.school-ratings-info h4 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.school-ratings-info p {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    line-height: 1.6;
+}

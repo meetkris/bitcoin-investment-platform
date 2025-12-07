@@ -1,0 +1,90 @@
+.price-history {
+    margin: 48px 0;
+}
+
+.price-history h3 {
+    font-size: 1.75rem;
+    margin-bottom: 32px;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.history-section {
+    margin-bottom: 48px;
+    padding: 32px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.history-section h4 {
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.history-section h5 {
+    font-size: 1.1rem;
+    margin: 32px 0 16px 0;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.events-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.event-item {
+    display: flex;
+    padding: 16px;
+    background: var(--secondary-color);
+    border-radius: 8px;
+    border-left: 4px solid #006AFF;
+}
+
+.event-date {
+    min-width: 100px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.event-details {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.event-type {
+    color: var(--text-light);
+}
+
+.event-price {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.tax-table {
+    width: 100%;
+    margin-top: 24px;
+    border-collapse: collapse;
+}
+
+.tax-table th,
+.tax-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.tax-table th {
+    background: var(--secondary-color);
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.tax-table tr:hover {
+    background: var(--secondary-color);
+}
